@@ -1,0 +1,50 @@
+#crest{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}
+
+.courage{
+    background-color: #ffcc66;
+}
+
+.friendship{
+    background-color: #90dfff;
+}
+
+.love{
+    background-color: #ffaaaa;
+}
+
+.knowledge{
+    background-color: #aaaaff;
+}
+
+.sincerity{
+    background-color: #ccffcc;
+}
+
+.reliability{
+    background-color: #eeeeff;
+}
+
+.hope{
+    background-color: #ffffaa;
+}
+
+.light{
+    background-color: #efafff;
+}
+
+.kindness{
+    background-color: #ffddff;
+}
+
+
+img {
+    width: 30%;
+    min-width: 40px;
+}

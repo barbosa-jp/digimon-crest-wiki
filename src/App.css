@@ -1,0 +1,17 @@
+header {
+  top: 0;
+  position: absolute;
+  display: flex;
+  height: 6em;
+  width: 100%;
+}
+
+main {
+  position: absolute;
+  top: 6em;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+

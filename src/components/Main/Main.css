@@ -1,0 +1,58 @@
+#main {
+    display: flex;
+    padding: 2em;
+    gap: 2em
+}
+
+#crest-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 30%;
+    min-width: 5em;
+}
+
+#crest-content {
+    font-size: large;
+    text-align: justify;
+    width: 70%;
+}
+
+.courage-mark{
+    color: #ff6f00;
+}
+
+.friendship-mark{
+    color: #0077ff;
+}
+
+.love-mark{
+    color: #ff0000;
+}
+
+.knowledge-mark{
+    color: #5500d5;
+}
+
+.sincerity-mark{
+    color: #55ff55;
+}
+
+.reliability-mark{
+    color: #99bbcc;
+}
+
+.hope-mark{
+    color: #ffff00;
+}
+
+.light-mark{
+    color: #ff88ff;
+}
+
+.kindness-mark{
+    color: #ffaaff;
+}
+
