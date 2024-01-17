@@ -7,6 +7,10 @@
     cursor: pointer;
 }
 
+.active {
+    background-color: #555555;
+}
+
 .courage{
     background-color: #ffcc66;
 }

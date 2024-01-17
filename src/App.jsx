@@ -10,15 +10,18 @@ import Main from './components/Main/Main';
 export default function App() {
   const [crestIndex, setCristIndex] = useState();
 
+  let active;
+
   function changeCrestClick(crestName) {
     const index = CREST_IMAGE.findIndex(crest => crest.name === crestName); 
     setCristIndex(index);
+    active = "active";
   }
 
   return (
     <>
       <header>
-        {CREST_IMAGE.map((crest) => <HeaderButton key={crest.image} srcImage={crest} onClick={() => changeCrestClick(crest.name)}></HeaderButton>)}
+        {CREST_IMAGE.map((crest) => <HeaderButton key={crest.image} srcImage={crest} onClick={() => changeCrestClick(crest.name)} id={active ? active : undefined}></HeaderButton>)}
       </header>
       <main>
         <Main index={crestIndex ? crestIndex : 0}></Main>
